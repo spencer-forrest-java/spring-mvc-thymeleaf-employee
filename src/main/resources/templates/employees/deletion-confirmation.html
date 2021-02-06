@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <title>Deletion Confirmation</title>
+</head>
+<body>
+    <div class="container text-center">
+        <h3 class="mt-10">Employee Directory</h3>
+        <hr>
+        <div class="justify-content-center">
+
+            <p th:text="${message}"></p>
+
+            <a th:href="@{/employees/delete(employeeId=${employeeId})}" class="btn btn-danger">Delete</a>
+            <a th:href="@{/employees/list}" class="btn btn-info">Cancel</a>
+
+        </div>
+    </div>
+</body>
+</html>
