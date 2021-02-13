@@ -22,7 +22,7 @@ Application allows user to perform CRUD operations on an
 ##### List of Employees
 ![List of employees](images/list.png)
 
-##### Update employee form
+##### Add / Update employee form
 ![Update employee form](images/update.png)
 
 ##### Delete confirmation of an employee
